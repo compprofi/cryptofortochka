@@ -16,6 +16,8 @@ if ! command -v curl &> /dev/null; then
 fi
 sleep 1
 
+#ignore
+
 # Отображаем логотип
 curl -s https://raw.githubusercontent.com/noxuspace/cryptofortochka/main/logo_club.sh | bash
 
